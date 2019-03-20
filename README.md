@@ -1,5 +1,5 @@
 Portfolio Website:
-
+    -   
 
 Github Repository:
     -   https://github.com/Ronnoci/Portfolio
@@ -17,9 +17,6 @@ Sitemap:
     -   A single page displaying my name and infomation about me. 
     -   Links to all social media platforms inluding email and github. 
     -   What I know as a developer and the projects I have worked on.
-
-Screenshots:
-
 
 Target audience:
     -   Prospective Employer
@@ -39,10 +36,10 @@ Design Process:
     -   Testing
 
 Wireframes:
-   
+   -    IMG Attached
 
 Usability Considerations:
-    -   Works a lot(x50) when used on a desktop.
+    -   Works a lot(x50) better when used on a desktop.
     -   May pose threat to those who suffer epilepsy.
 
 Project plan & Timeline:
@@ -55,4 +52,13 @@ Project plan & Timeline:
 
 Trello Boards:
     -   https://trello.com/b/QtpclRX1/portfolio
-  
+    -   IMG Attached
+
+Describe key events in the development of the internet from the 1980s to today (max. 150 words):
+    -   
+
+Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words):
+    -   
+
+Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words):
+    -   
