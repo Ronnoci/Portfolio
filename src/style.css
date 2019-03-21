@@ -78,7 +78,7 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 600px;
+  height: 550px;
 }
 
 main .container {
@@ -184,6 +184,7 @@ main .container .column .content .box p {
 }
 
 footer {
+  height: 100px;
   width: 100%;
   text-align: center;
 }

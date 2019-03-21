@@ -74,7 +74,7 @@ nav {
 
 main {
     @include full-width-centered();
-    height: 600px;
+    height: 550px;
 
     .container {        
         height: 70vh;
@@ -157,6 +157,7 @@ main {
 }
 
 footer {
+    height: 100px;
     width: 100%;
     text-align: center;
 
