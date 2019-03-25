@@ -28,7 +28,7 @@ nav {
 
 nav h1 {
   font-size: 5rem;
-  color: rgba(255, 255, 255, 0.342);
+  color: white;
 }
 
 nav .dropdown {
@@ -78,11 +78,11 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 550px;
+  height: 650px;
 }
 
 main .container {
-  height: 70vh;
+  height: 80vh;
   overflow: hidden;
 }
 
@@ -152,8 +152,8 @@ main .container .column .content .box p {
 
 .container .column.active .bg.bg1 {
   background: url(https://thumbor.forbes.com/thumbor/1280x868/https%3A%2F%2Fblogs-images.forbes.com%2Fannabel%2Ffiles%2F2018%2F02%2FLouisville_Skyline-1200x801.jpg);
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -163,8 +163,8 @@ main .container .column .content .box p {
 
 .container .column.active .bg.bg2 {
   background: url(https://s3-ap-southeast-2.amazonaws.com/2ser-wordpress/wp-content/aws/uploads/2018/11/14041159/Amazon_870.jpg);
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -174,8 +174,8 @@ main .container .column .content .box p {
 
 .container .column.active .bg.bg3 {
   background: url(https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?cs=srgb&dl=beach-calm-clouds-457882.jpg&fm=jpg);
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -184,9 +184,10 @@ main .container .column .content .box p {
 }
 
 footer {
-  height: 100px;
+  height: 20px;
   width: 100%;
   text-align: center;
+  overflow: hidden;
 }
 
 footer p {
@@ -207,22 +208,6 @@ footer p {
   font-size: 1.5rem;
 }
 
-.highlight1 {
-  color: red;
-}
-
-.highlight2 {
-  color: orange;
-}
-
-.highlight3 {
-  color: lightblue;
-}
-
-.highlight4 {
-  color: darkkhaki;
-}
-
 /* Mobile styles (screen width less than or equal to 400px) */
 @media only screen and (max-width: 400px) {
   * {
@@ -239,7 +224,7 @@ footer p {
   }
   main {
     width: 100%;
-    height: 550px;
+    height: 560px;
   }
   main .container {
     height: 80vh;
@@ -261,7 +246,7 @@ footer p {
 }
 
 /* tablet styles*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 400px) and (max-width: 960px) {
   * {
     margin: 2px;
   }
@@ -276,10 +261,10 @@ footer p {
   }
   main {
     width: 100%;
-    height: 860px;
+    height: 830px;
   }
   main .container {
-    height: 85vh;
+    height: 80vh;
   }
   main .container .column {
     width: 100%;

@@ -4,7 +4,7 @@
     width: 100%;
 }
 @mixin bg-img {
-    filter:  blur(5px);
+    filter:  blur(2px);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -30,7 +30,8 @@ nav {
 
     h1 {
     font-size: 5rem;    
-    color: rgba(255, 255, 255, 0.342);
+    // color: rgba(255, 255, 255, 0.342);
+    color: white;
     
     }
 
@@ -74,10 +75,10 @@ nav {
 
 main {
     @include full-width-centered();
-    height: 550px;
+    height: 650px;
 
     .container {        
-        height: 70vh;
+        height: 80vh;
         overflow: hidden;
 
         .column {
@@ -157,9 +158,10 @@ main {
 }
 
 footer {
-    height: 100px;
+    height: 20px;
     width: 100%;
     text-align: center;
+    overflow: hidden;
 
     p {
         font-size: 1rem;
@@ -179,19 +181,19 @@ footer {
     font-size: 1.5rem;
 }
 
-.highlight1 {
-    color: red;
-}
-.highlight2 {
-    color: orange;
-}
-.highlight3 {
-    color: lightblue;
-}
+// .highlight1 {
+//     color: red;
+// }
+// .highlight2 {
+//     color: orange;
+// }
+// .highlight3 {
+//     color: lightblue;
+// }
 
-.highlight4 {
-    color: darkkhaki;
-}
+// .highlight4 {
+//     color: darkkhaki;
+// }
 
 
 /* Mobile styles (screen width less than or equal to 400px) */
@@ -213,7 +215,7 @@ footer {
 
     main {
         width: 100%;
-        height: 550px;
+        height: 560px;
 
         .container  {
             height: 80vh;
@@ -239,7 +241,7 @@ footer {
 }
 
 /* tablet styles*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 400px) and (max-width: 960px) {
     * {
         margin: 2px;
     }
@@ -256,10 +258,10 @@ footer {
 
     main {
         width: 100%;
-        height: 860px;
+        height: 830px;
 
         .container  {
-            height: 85vh;
+            height: 80vh;
 
             .column {
                 width: 100%;
