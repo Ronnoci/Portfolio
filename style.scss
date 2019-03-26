@@ -198,9 +198,9 @@ footer {
 
 /* Mobile styles (screen width less than or equal to 400px) */
 @media only screen and (max-width: 400px) {
-    * {
-        margin: 2px;
-    }
+    // * {
+    //     margin: 2px;
+    // }
 
     img {
         height: 20px;
@@ -210,7 +210,11 @@ footer {
         height: 70px;
         h1 {
             font-size: 2rem;
+            padding: 1rem;
         }         
+    }
+    nav .dropdown .dropbtn {
+        padding: 33% 20px;
     }
 
     main {
@@ -253,7 +257,11 @@ footer {
         height: 100px;
         h1 {
             font-size: 3rem;
+            padding: 1rem;
         }       
+    }
+    nav .dropdown .dropbtn {
+        padding: 33% 20px;
     }
 
     main {
